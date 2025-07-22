@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "yolochka")(type "KiCad")(uri "${KIPRJMOD}/../yolochka_lib/kicad-footprints/yolochka.pretty")(options "")(descr ""))
+)
+
