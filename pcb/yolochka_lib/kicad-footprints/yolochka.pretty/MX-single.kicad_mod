@@ -365,6 +365,46 @@
 		(layer "Dwgs.User")
 		(uuid "ce87591c-c414-4b30-98d0-a8d371fbe445")
 	)
+	(fp_line
+		(start -5.7 5.12)
+		(end -7.2 5.12)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "d5e8b9ea-1567-4889-b3a5-eca39facdf54")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -5.08)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "6315e819-6e3d-4599-9441-6296d3c22ed2")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 8.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "74b8e093-f200-462d-afb1-69dafedfcbb4")
+	)
+	(fp_line
+		(start 9.5 0)
+		(end 7 2.58)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "01b54fcd-aadb-4963-9a68-7117a9c5483b")
+	)
 	(pad "" np_thru_hole circle
 		(at -5.08 0)
 		(size 1.7 1.7)
@@ -396,7 +436,7 @@
 	(pad "" np_thru_hole circle
 		(at 5.08 0)
 		(size 1.7 1.7)
-		(drill 1.9)
+		(drill 1.7)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "78f7f64e-d697-4c37-840a-2e991e53b91e")
 	)
