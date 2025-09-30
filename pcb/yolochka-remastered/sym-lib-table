@@ -2,4 +2,3 @@
   (version 7)
   (lib (name "yolochka")(type "KiCad")(uri "${KIPRJMOD}/../yolochka_lib/kicad-symbols/yolochka.kicad_sym")(options "")(descr ""))
 )
-
