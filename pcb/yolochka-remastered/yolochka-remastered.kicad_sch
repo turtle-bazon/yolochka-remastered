@@ -1485,6 +1485,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "yolochka:rgb3pin"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 -5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "yolochka:rgb3pin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "rgb3pin_0_1"
+				(circle
+					(center -3.81 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "rgb3pin_1_1"
+				(pin input line
+					(at -3.81 3.81 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 3.81 270)
+					(length 2.54)
+					(name "LED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 330.2 76.2)
@@ -2666,6 +2806,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 326.39) (xy 129.54 326.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15428275-ac5e-41d5-b6b7-ef4295bc68d3")
+	)
+	(wire
+		(pts
 			(xy 242.57 190.5) (xy 242.57 215.9)
 		)
 		(stroke
@@ -2743,6 +2893,16 @@
 			(type default)
 		)
 		(uuid "16ef5db6-1ede-47d2-82a1-f934d398ece0")
+	)
+	(wire
+		(pts
+			(xy 59.69 107.95) (xy 62.23 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1874bbf1-18a8-4031-b8c4-f4c7557894fd")
 	)
 	(wire
 		(pts
@@ -2863,6 +3023,16 @@
 			(type default)
 		)
 		(uuid "1da0aa2a-23c3-4d28-937f-3c1735764c85")
+	)
+	(wire
+		(pts
+			(xy 127 334.01) (xy 129.54 334.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1db4c436-5703-4caa-bd4d-2986aed0245d")
 	)
 	(wire
 		(pts
@@ -3176,6 +3346,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 90.17) (xy 69.85 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30c5dc9b-a9bd-4fdd-808f-480122daec7c")
+	)
+	(wire
+		(pts
 			(xy 397.51 85.09) (xy 397.51 88.9)
 		)
 		(stroke
@@ -3203,6 +3383,16 @@
 			(type default)
 		)
 		(uuid "338886d9-3cd0-4571-b766-c8ad237fa26a")
+	)
+	(wire
+		(pts
+			(xy 52.07 90.17) (xy 53.34 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3459de7c-6fac-4a4d-90c0-77aa60c66f88")
 	)
 	(wire
 		(pts
@@ -3513,6 +3703,16 @@
 			(type default)
 		)
 		(uuid "44e4503d-2451-4deb-a220-fb061e9ee5bb")
+	)
+	(wire
+		(pts
+			(xy 68.58 90.17) (xy 69.85 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44ee25b5-7d43-42c7-a8dd-2d47c71c4141")
 	)
 	(wire
 		(pts
@@ -3893,6 +4093,16 @@
 			(type default)
 		)
 		(uuid "533da0c6-5426-4646-ae73-a66717b43f4f")
+	)
+	(wire
+		(pts
+			(xy 59.69 104.14) (xy 62.23 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "535b7ac5-5707-4f3b-b3e6-d132a48675fc")
 	)
 	(wire
 		(pts
@@ -5156,6 +5366,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 48.26) (xy 41.91 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9005aa93-671e-4ee7-9c3e-a8760432eaf2")
+	)
+	(wire
+		(pts
 			(xy 127 38.1) (xy 127 50.8)
 		)
 		(stroke
@@ -5543,6 +5763,16 @@
 			(type default)
 		)
 		(uuid "a63688c7-37e8-4320-b281-c7bef3ac3eb8")
+	)
+	(wire
+		(pts
+			(xy 127 330.2) (xy 129.54 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a64f00bd-5721-41b7-be8d-c3206beb5592")
 	)
 	(wire
 		(pts
@@ -6646,6 +6876,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 100.33) (xy 62.23 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e62af292-ebd5-4334-8f69-62270cc147c0")
+	)
+	(wire
+		(pts
 			(xy 370.84 50.8) (xy 372.11 50.8)
 		)
 		(stroke
@@ -7278,6 +7518,28 @@
 	)
 	(global_label "VCC"
 		(shape input)
+		(at 62.23 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e93d2e0-f34a-4f39-878a-a84a42a0d787")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.8438 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
 		(at 38.1 50.8 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7430,6 +7692,28 @@
 			)
 		)
 	)
+	(global_label "STATUS_LEDS"
+		(shape input)
+		(at 129.54 334.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "28e0578b-4a26-45f4-904d-05fa64d921a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.9227 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "C4"
 		(shape input)
 		(at 228.6 38.1 90)
@@ -7518,7 +7802,7 @@
 			)
 		)
 	)
-	(global_label "STATUS_LEDP"
+	(global_label "STATUS_LED"
 		(shape input)
 		(at 81.28 45.72 0)
 		(fields_autoplaced yes)
@@ -7530,7 +7814,7 @@
 		)
 		(uuid "3471db5a-1b29-428b-bbbe-126c747c3c9d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.7232 45.72 0)
+			(at 95.4532 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7936,6 +8220,28 @@
 			)
 		)
 	)
+	(global_label "reset"
+		(shape input)
+		(at 52.07 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "98340db0-2100-4157-a566-e89bf1440074")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.3676 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VCC"
 		(shape input)
 		(at 190.5 234.95 180)
@@ -7976,6 +8282,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "reset"
+		(shape input)
+		(at 38.1 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "be3b235c-24e9-4e9a-9b41-ab696884ab65")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.3976 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8092,6 +8420,50 @@
 	)
 	(global_label "STATUS_LED"
 		(shape input)
+		(at 62.23 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cbb140e0-f825-42b6-89c5-46ef67548f30")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.4032 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCCS"
+		(shape input)
+		(at 129.54 330.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d62c7da9-5a57-446f-84c7-cd3b003613e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.3633 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STATUS_LEDS"
+		(shape input)
 		(at 180.34 354.33 270)
 		(fields_autoplaced yes)
 		(effects
@@ -8102,7 +8474,7 @@
 		)
 		(uuid "df39018e-cc80-4b8a-a640-5df05bc13c69")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.34 368.5032 90)
+			(at 180.34 369.7127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11032,6 +11404,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 62.23 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30c9e1d8-a690-470b-90f9-4d8b34025701")
+		(property "Reference" "#PWR012"
+			(at 68.58 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91b2c33f-6f9c-4770-9779-48119c14f203")
+		)
+		(instances
+			(project "yolochka-remastered"
+				(path "/f379e286-fd5d-4a21-8f59-85bfb7393b03"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "yolochka:ProMicro_r")
 		(at 58.42 60.96 0)
 		(unit 1)
@@ -12099,6 +12539,76 @@
 		)
 	)
 	(symbol
+		(lib_id "yolochka:rgb3pin")
+		(at 55.88 104.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46bca812-e103-4ecf-a726-74bf1b008f24")
+		(property "Reference" "U2"
+			(at 50.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 49.53 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "yolochka:rgb3pin"
+			(at 55.88 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c853d2b3-dfcf-4d7c-adc6-bd359faca49f")
+		)
+		(pin "1"
+			(uuid "38b9cb71-1099-4125-8f7f-51b65f33e910")
+		)
+		(pin "3"
+			(uuid "c0153b1b-1886-48f3-919f-42f6a14f459c")
+		)
+		(instances
+			(project ""
+				(path "/f379e286-fd5d-4a21-8f59-85bfb7393b03"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148")
 		(at 219.71 81.28 90)
 		(unit 1)
@@ -13149,6 +13659,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 129.54 326.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61b7acc4-6770-4760-8f3e-dda9aa3a7238")
+		(property "Reference" "#PWR013"
+			(at 135.89 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDS"
+			(at 134.62 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31c21b98-b14f-45a1-b474-adc37d4ba2be")
+		)
+		(instances
+			(project "yolochka-remastered"
+				(path "/f379e286-fd5d-4a21-8f59-85bfb7393b03"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "yolochka:SW_PUSH")
 		(at 134.62 50.8 0)
 		(unit 1)
@@ -13572,6 +14149,76 @@
 			(project "yolochka-remastered"
 				(path "/f379e286-fd5d-4a21-8f59-85bfb7393b03"
 					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "yolochka:rgb3pin")
+		(at 123.19 330.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6bc481c9-e88b-46ae-a567-885cd3a35679")
+		(property "Reference" "U3"
+			(at 118.11 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 116.84 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "yolochka:rgb3pin"
+			(at 123.19 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "524a42bb-607a-42c1-b192-51da64039a62")
+		)
+		(pin "2"
+			(uuid "015517ab-425d-469e-97d1-07377f2d9975")
+		)
+		(pin "1"
+			(uuid "e01ea066-1647-4519-8bf1-e7f11d645ebf")
+		)
+		(instances
+			(project ""
+				(path "/f379e286-fd5d-4a21-8f59-85bfb7393b03"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -15525,6 +16172,73 @@
 		)
 	)
 	(symbol
+		(lib_id "yolochka:SW_PUSH")
+		(at 60.96 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6e75355-e8ec-4490-ac96-40ba74c16610")
+		(property "Reference" "RSW1"
+			(at 60.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 60.96 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "yolochka:SW_EVQP7C01K"
+			(at 60.96 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ea0920db-216c-4f3c-b603-0e54cb0eb19e")
+		)
+		(pin "1"
+			(uuid "1b6ec57a-52f2-4b1f-88f2-bd06fe22dc9b")
+		)
+		(instances
+			(project ""
+				(path "/f379e286-fd5d-4a21-8f59-85bfb7393b03"
+					(reference "RSW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "yolochka:YS-SK6812MINI-E_v2")
 		(at 132.08 193.04 0)
 		(unit 1)
@@ -16121,6 +16835,74 @@
 			(project "yolochka-remastered"
 				(path "/f379e286-fd5d-4a21-8f59-85bfb7393b03"
 					(reference "SW30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc641d96-9c15-4955-9c8f-f44023ca6ae6")
+		(property "Reference" "#PWR011"
+			(at 69.85 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.8501 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66e8ed19-4eb5-4038-b191-9900edf192d6")
+		)
+		(instances
+			(project "yolochka-remastered"
+				(path "/f379e286-fd5d-4a21-8f59-85bfb7393b03"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)

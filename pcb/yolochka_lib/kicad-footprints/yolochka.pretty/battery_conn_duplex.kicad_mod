@@ -16,8 +16,9 @@
 		)
 	)
 	(property "Value" "battery_conn_duplex"
-		(at 0 -15.24 0)
+		(at 0.05 0 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "378cd9c5-ebb2-489b-8a7d-976f9a1b64f7")
 		(effects
 			(font
@@ -52,7 +53,7 @@
 	)
 	(attr through_hole)
 	(fp_text user "-"
-		(at 6.5 -15.24 0)
+		(at 2 -1.6 0)
 		(layer "F.SilkS")
 		(uuid "3792a6ec-56f3-465f-b161-86cc8484eb10")
 		(effects
@@ -60,11 +61,10 @@
 				(size 1.5 1.5)
 				(thickness 0.15)
 			)
-			(justify right)
 		)
 	)
 	(fp_text user "+"
-		(at -6.5 -15.24 0)
+		(at -2 -1.6 0)
 		(layer "F.SilkS")
 		(uuid "d3246297-b2fb-42f3-97b5-241f847f0022")
 		(effects
@@ -72,11 +72,10 @@
 				(size 1.5 1.5)
 				(thickness 0.15)
 			)
-			(justify left)
 		)
 	)
 	(fp_text user "-"
-		(at 6.5 -15.24 0)
+		(at 2 -1.6 0)
 		(layer "B.SilkS")
 		(uuid "2209551f-c9e0-419b-8d39-4f7bde97dde0")
 		(effects
@@ -84,11 +83,11 @@
 				(size 1.5 1.5)
 				(thickness 0.15)
 			)
-			(justify left mirror)
+			(justify mirror)
 		)
 	)
 	(fp_text user "+"
-		(at -6.5 -15.24 0)
+		(at -2 -1.6 0)
 		(layer "B.SilkS")
 		(uuid "603cf763-418e-4716-92e5-f4d672df44ee")
 		(effects
@@ -96,11 +95,11 @@
 				(size 1.5 1.5)
 				(thickness 0.15)
 			)
-			(justify right mirror)
+			(justify mirror)
 		)
 	)
 	(pad "1" thru_hole circle
-		(at -7.6 -15.24 90)
+		(at -2 0 90)
 		(size 1.524 1.524)
 		(drill 0.9)
 		(layers "*.Cu" "*.Paste" "*.Mask")
@@ -108,7 +107,7 @@
 		(uuid "33358398-fb14-4c18-b8b5-9aac56560f25")
 	)
 	(pad "2" thru_hole roundrect
-		(at 7.6 -15.24)
+		(at 2 0)
 		(size 1.524 1.524)
 		(drill 0.9)
 		(layers "*.Cu" "*.Paste" "*.Mask")
