@@ -118,7 +118,7 @@
 	(pad "3" smd roundrect
 		(at 2.7 0.75)
 		(size 1.8 0.8)
-		(layers "B.Cu" "B.Paste")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(roundrect_rratio 0)
 		(chamfer_ratio 0.5)
 		(chamfer bottom_right)
