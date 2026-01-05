@@ -247,7 +247,7 @@
 		(uuid "b5ab8b95-a017-4db9-b8f5-a34a58efc949")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/Rafael/Documents/Keyboards/SW_MSK12C02.step"
+	(model "../yolochka_lib/3d/MSK12C02.step"
 		(offset
 			(xyz 0 -1.25 0)
 		)
@@ -255,7 +255,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 180)
 		)
 	)
 )

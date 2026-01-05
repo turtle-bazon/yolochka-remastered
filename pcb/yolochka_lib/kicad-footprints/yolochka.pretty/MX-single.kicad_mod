@@ -408,8 +408,8 @@
 	(pad "" np_thru_hole circle
 		(at -5.08 0)
 		(size 1.7 1.7)
-		(drill 1.9)
-		(layers "F&B.Cu" "*.Mask")
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
 		(uuid "e170f92f-042b-4bd5-9215-ddb681f61ed9")
 	)
 	(pad "" np_thru_hole circle
@@ -437,7 +437,7 @@
 		(at 5.08 0)
 		(size 1.7 1.7)
 		(drill 1.7)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "78f7f64e-d697-4c37-840a-2e991e53b91e")
 	)
 	(pad "1" smd rect
@@ -453,4 +453,15 @@
 		(uuid "f214c667-16b2-4389-8565-5760dbd998fd")
 	)
 	(embedded_fonts no)
+	(model "../yolochka_lib/3d/HotswapMX.stp"
+		(offset
+			(xyz 0 0 0.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 180)
+		)
+	)
 )

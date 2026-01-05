@@ -845,4 +845,15 @@
 		(uuid "6010bda2-21e4-4adc-869a-3d8a4cbbe920")
 	)
 	(embedded_fonts no)
+	(model "../yolochka_lib/3d/SuperMini_FlatConnector.step"
+		(offset
+			(xyz 0 0 4.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 180 -0)
+		)
+	)
 )

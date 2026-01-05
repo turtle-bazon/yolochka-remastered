@@ -131,15 +131,15 @@
 		(uuid "588961c3-6f26-47f4-8d70-1d0fd9792052")
 	)
 	(embedded_fonts no)
-	(model "../PNCATEHO_lib/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+	(model "../yolochka_lib/3d/LED_SK6812MINI-E.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 5.08 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 180 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

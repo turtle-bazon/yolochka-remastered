@@ -97,12 +97,12 @@
 		(uuid "aa2d15c9-7017-466e-b249-45afe10f51bc")
 	)
 	(embedded_fonts no)
-	(model "${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_SPST_B3U-1000P.wrl"
+	(model "../yolochka_lib/3d/turtle-tactile-switch-3x4-body.step"
 		(offset
 			(xyz 0 0 0)
 		)
 		(scale
-			(xyz 1.333 1.2 1.25)
+			(xyz 1 1 1)
 		)
 		(rotate
 			(xyz 0 0 0)

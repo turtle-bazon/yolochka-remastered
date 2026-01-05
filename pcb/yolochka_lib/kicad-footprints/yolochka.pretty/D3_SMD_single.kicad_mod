@@ -158,15 +158,15 @@
 		(uuid "3e467be8-bb03-44bd-b92e-45b0998c5715")
 	)
 	(embedded_fonts no)
-	(model "Diodes_SMD.3dshapes/SMB_Handsoldering.wrl"
+	(model "../yolochka_lib/3d/D_SOD-123.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 -1.6)
 		)
 		(scale
-			(xyz 0.22 0.15 0.15)
+			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 180)
+			(xyz -0 -180 -180)
 		)
 	)
 )
