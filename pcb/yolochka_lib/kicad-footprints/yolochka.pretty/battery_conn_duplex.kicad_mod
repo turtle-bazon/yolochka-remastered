@@ -52,7 +52,7 @@
 		)
 	)
 	(attr through_hole)
-	(fp_text user "-"
+	(fp_text user "+"
 		(at 2 -1.6 0)
 		(layer "F.SilkS")
 		(uuid "3792a6ec-56f3-465f-b161-86cc8484eb10")
@@ -63,7 +63,7 @@
 			)
 		)
 	)
-	(fp_text user "+"
+	(fp_text user "-"
 		(at -2 -1.6 0)
 		(layer "F.SilkS")
 		(uuid "d3246297-b2fb-42f3-97b5-241f847f0022")
@@ -74,7 +74,7 @@
 			)
 		)
 	)
-	(fp_text user "-"
+	(fp_text user "+"
 		(at 2 -1.6 0)
 		(layer "B.SilkS")
 		(uuid "2209551f-c9e0-419b-8d39-4f7bde97dde0")
@@ -86,7 +86,7 @@
 			(justify mirror)
 		)
 	)
-	(fp_text user "+"
+	(fp_text user "-"
 		(at -2 -1.6 0)
 		(layer "B.SilkS")
 		(uuid "603cf763-418e-4716-92e5-f4d672df44ee")
@@ -98,21 +98,21 @@
 			(justify mirror)
 		)
 	)
-	(pad "1" thru_hole circle
+	(pad "1" thru_hole roundrect
 		(at -2 0 90)
 		(size 1.524 1.524)
 		(drill 0.9)
 		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
 		(uuid "33358398-fb14-4c18-b8b5-9aac56560f25")
 	)
-	(pad "2" thru_hole roundrect
+	(pad "2" thru_hole circle
 		(at 2 0)
 		(size 1.524 1.524)
 		(drill 0.9)
 		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
-		(roundrect_rratio 0.25)
 		(uuid "19f0a44b-2b7b-45ed-9a49-0be47983257e")
 	)
 	(embedded_fonts no)
