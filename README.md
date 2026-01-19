@@ -32,5 +32,4 @@ Yolochka Remastered is a 36 keys (3x5 + 3 thumbs per hand) row staggered keyboar
 
 ## Firmware
 
-## License
-
+My zmk repo is available [here](https://github.com/turtle-bazon/zmk-yolochka-remastered)
