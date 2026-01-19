@@ -26,9 +26,9 @@ Yolochka Remastered is a 36 keys (3x5 + 3 thumbs per hand) row staggered keyboar
 | 14500 li-ion battery       | 2        |                                                           |
 | 24 AWG wire                |          | Or something similar                                      |
 | M2 threaded insert         | 11       | 3mm, OD 3.2mm                                             |
-| M2x4                       | 2        | For led panel                                             |
-| M2x10                      | 4        | For PCB                                                   |
-| M2x5                       | 7        | For Case                                                  |
+| M2x4 Countersunk head      | 2        | For led panel                                             |
+| M2x10 Countersunk head     | 4        | For PCB                                                   |
+| M2x5 Countersunk head      | 7        | For Case                                                  |
 
 ## Firmware
 
